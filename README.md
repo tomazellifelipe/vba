@@ -1,3 +1,3 @@
 # vba
 
-Just vba macro I used during my internship. 
+Just some vba macro I used during my internship. 
