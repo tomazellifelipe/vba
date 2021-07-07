@@ -1,11 +1,12 @@
 # Power Query M Language
-
+```M
 (texto as text) =>
 let
     Fonte = Text.Combine(List.ReplaceMatchingItems(Text.ToList(texto), List.Zip({Tabela_Acentos[De], Tabela_Acentos[Para]})))
 in
     Fonte
-
+ ```
+```M
 # Tabela_Acentos
 let
     Fonte = Table.FromRows({
@@ -29,3 +30,4 @@ let
 
 in
     Fonte
+```
